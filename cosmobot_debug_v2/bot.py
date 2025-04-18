@@ -8,7 +8,7 @@ from aiogram.types import Message
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7721036935:AAHM3D_7M8gCcKMlFae5Iv8mCISAzE7esWA")
 
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN не найден! Убедись, что переменная окружения установлена.")
